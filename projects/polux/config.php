@@ -55,9 +55,9 @@ define('SW_DB_DATABASE', SW_FRAMEWORK_DB_DATABASE);
 else
 {
 define('SW_DB_DRIVER', SW_DB_TYPE);
-define('SW_DB_USER', 'postgres');
-define('SW_DB_PASSWORD', 'admin123');
-define('SW_DB_HOST', '127.0.0.1');
+define('SW_DB_USER', 'polux_frame');
+define('SW_DB_PASSWORD', 'poluxFrame2016=');
+define('SW_DB_HOST', '10.20.0.38');
 define('SW_DB_DATABASE', 'polux');
 }
 define('SW_DB_CONNECT_FROM_CONFIG', true);

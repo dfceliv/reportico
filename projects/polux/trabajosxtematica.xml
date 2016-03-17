@@ -26,7 +26,7 @@ SELECT
 row_number() OVER () as rnum, 
 proy_proy AS numero, 
 proy_titu AS titulo, 
-string_agg(DISTINCT estproy_proy || ' - ' || nombre || ' ' || apellido, ', ') AS autor, 
+string_agg(DISTINCT estproy_estd || ' - ' || nombre || ' ' || apellido, ', ') AS autor, 
 'PROYECTO' AS estapa, 
 proy_eproy AS estado,
 acproy_acono AS tematica
@@ -48,7 +48,7 @@ SELECT
 row_number() OVER () as rnum, 
 info_info AS numero, 
 info_titu AS titulo, 
-string_agg(DISTINCT estinfo_info || ' - ' || nombre || ' ' || apellido, ', ') AS autor, 
+string_agg(DISTINCT estinfo_est || ' - ' || nombre || ' ' || apellido, ', ') AS autor, 
 'INFORME FINAL' AS estapa, 
 info_einfo AS estado,
 acinfo_acono AS tematica
